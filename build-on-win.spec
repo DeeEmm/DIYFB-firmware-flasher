@@ -2,7 +2,7 @@
 
 block_cipher = None
 
-a = Analysis(['nodemcu-pyflasher.py'],
+a = Analysis(['DIYFB-Firmware-Flasher.py'],
              binaries=[],
              datas=[("images", "images")],
              hiddenimports=[],
@@ -19,7 +19,7 @@ exe = EXE(pyz,
           a.binaries,
           a.zipfiles,
           a.datas,
-          name='NodeMCU-PyFlasher',
+          name='DIYFB-Firmware-Flasher',
           version='windows-version-info.txt',
           debug=False,
           strip=False,

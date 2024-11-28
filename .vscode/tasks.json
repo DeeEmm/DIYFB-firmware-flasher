@@ -1,0 +1,30 @@
+{
+	"version": "1.0.0",
+	"tasks": [
+		{
+			"type": "script",
+			"scriptType": "bash",
+			"path": "",
+			"fileName": "build.sh",
+			"scriptFile": true,
+			"script": "sh",
+			"target": "sh",
+			"uri": {
+				"$mid": 1,
+				"fsPath": "/Users/mick/Zoho WorkDrive (joeblow)/My Folders/ESP32 Projects/DIYFB-firmware-flasher/build.sh",
+				"external": "file:///Users/mick/Zoho%20WorkDrive%20%28joeblow%29/My%20Folders/ESP32%20Projects/DIYFB-firmware-flasher/build.sh",
+				"path": "/Users/mick/Zoho WorkDrive (joeblow)/My Folders/ESP32 Projects/DIYFB-firmware-flasher/build.sh",
+				"scheme": "file"
+			},
+			"takesArgs": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"label": "bash: build.sh",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

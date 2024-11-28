@@ -2,7 +2,7 @@
 
 block_cipher = None
 
-a = Analysis(['nodemcu-pyflasher.py'],
+a = Analysis(['DIYFB-Firmware-Flasher.py'],
              binaries=None,
              datas=[("images", "images")],
              hiddenimports=[],
@@ -19,13 +19,13 @@ exe = EXE(pyz,
           a.binaries,
           a.zipfiles,
           a.datas,
-          name='NodeMCU PyFlasher',
+          name='DIYFB-Firmware-Flasher',
           debug=False,
           strip=False,
           upx=True,
           console=False , icon='images/icon-256.icns')
 app = BUNDLE(exe,
-             name='NodeMCU PyFlasher.app',
-             version='5.0.0',
+             name='DIYFB-Firmware-Flasher.app',
+             version='0.0.1',
              icon='./images/icon-256.icns',
-             bundle_identifier='com.frightanic.nodemcu-pyflasher')
+             bundle_identifier='com.frightanic.DIYFB-Firmware-Flasher')
