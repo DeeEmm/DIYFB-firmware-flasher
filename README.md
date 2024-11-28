@@ -40,7 +40,7 @@ pip install -U \
 
 DIYFB Firmware Flasher is a self-contained [NodeMCU](https://github.com/nodemcu/nodemcu-firmware) flasher with GUI based on [esptool.py](https://github.com/espressif/esptool) and [wxPython](https://www.wxpython.org/). Based on cut down version of Marcel Stoers [nodemcu-pyflasher](https://github.com/marcelstoer/nodemcu-pyflasher)
 
-This tool is based on the [nodemcu-pyflasher](https://github.com/marcelstoer/nodemcu-pyflasher) written by Marcel Stoers. It is essentially a cut down version of Marcels work, with a few minor modifications to make it simpler for DIYFB users to use. 
+It is essentially a cut down version of Marcels work, with a few minor modifications to make a simple firmwre uploader for DIYFB users to use. 
 
 ## License
 [MIT](http://opensource.org/licenses/MIT) © Marcel Stör
