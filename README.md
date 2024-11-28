@@ -3,14 +3,13 @@
 
 ![GitHub forks](https://img.shields.io/github/forks/deeemm/DIYFB-firmware-flasher?style=social) &nbsp;&nbsp; ![GitHub Repo stars](https://img.shields.io/github/stars/deeemm/DIYFB-firmware-flasher?style=social) &nbsp;&nbsp; ![GitHub all releases](https://img.shields.io/github/downloads-pre/deeemm/DIYFB-firmware-flasher/total?logo=github&include_prereleases=true) &nbsp;&nbsp; ![GitHub issues](https://img.shields.io/github/issues-raw/deeemm/DIYFB-firmware-flasher?logo=github) &nbsp;&nbsp; ![GitHub contributors](https://img.shields.io/github/contributors/deeemm/DIYFB-firmware-flasher?logo=github) &nbsp;&nbsp; ![Discord](https://img.shields.io/discord/762654320444440587?logo=discord) &nbsp;&nbsp; ![GitHub](https://img.shields.io/github/license/deeemm/DIYFB-firmware-flasher?logo=mit) 
 
-Self-contained [NodeMCU](https://github.com/nodemcu/nodemcu-firmware) flasher with GUI based on [esptool.py](https://github.com/espressif/esptool) and [wxPython](https://www.wxpython.org/). Based on cut down version of Marcel Stoers [nodemcu-pyflasher](https://github.com/marcelstoer/nodemcu-pyflasher)
+DIYFB Firmware Flasher is a companion tool for the [DIY Flow Bench project](https://github.com/DeeEmm/DIY-Flow-Bench/).
 
 ![Image of DIYFB Firmware Flasher GUI](images/gui.png)
 
 
-
 ## Installation
-DIYFB Firmware Flasher is a companion tool for the [DIY Flow Bench project](https://github.com/DeeEmm/DIY-Flow-Bench/). The app doesn't have to be installed, just double-click it and it'll start. Check the [releases section](https://github.com/DeeEmm/DIYFB-Firmware-Flasher/releases) for downloads for your platform. For every release there's at least a .exe file for Windows and a .dmg for macOS.
+ The app doesn't have to be installed, just double-click it and it'll start. Check the [releases section](https://github.com/DeeEmm/DIYFB-Firmware-Flasher/releases) for downloads for your platform. For every release there's at least a .exe file for Windows and a .dmg for macOS.
 
 ## Status
 Scan the [list of open issues](https://github.com/DeeEmm/DIYFB-Firmware-Flasher/issues) for bugs and pending features.
@@ -37,7 +36,9 @@ pip install -U \
     wxPython
 ```
 
-## Credits 
+## Credits / About
+
+DIYFB Firmware Flasher is a self-contained [NodeMCU](https://github.com/nodemcu/nodemcu-firmware) flasher with GUI based on [esptool.py](https://github.com/espressif/esptool) and [wxPython](https://www.wxpython.org/). Based on cut down version of Marcel Stoers [nodemcu-pyflasher](https://github.com/marcelstoer/nodemcu-pyflasher)
 
 This tool is based on the [nodemcu-pyflasher](https://github.com/marcelstoer/nodemcu-pyflasher) written by Marcel Stoers. It is essentially a cut down version of Marcels work, with a few minor modifications to make it simpler for DIYFB users to use. 
 
