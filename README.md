@@ -16,7 +16,7 @@ Scan the [list of open issues](https://github.com/DeeEmm/DIYFB-Firmware-Flasher/
 
 
 ## Getting help
-In the unlikely event that you're stuck with this simple tool the best way to get help is to create a discsussion over on the main [DIYFB Forums](https://github.com/DeeEmm/DIY-Flow-Bench/discussions) 
+In the unlikely event that you're stuck with this simple tool the best way to get help is to post on the [Official Discussion Thread](https://github.com/DeeEmm/DIY-Flow-Bench/discussions/343) over on the main [DIYFB Forums](https://github.com/DeeEmm/DIY-Flow-Bench/discussions)
 
 
 ## Build it yourself
