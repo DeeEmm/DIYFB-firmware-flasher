@@ -34,12 +34,12 @@ VSVersionInfo(
         u'040904B0',
         [StringStruct(u'CompanyName', u'DeeEmm'),
         StringStruct(u'FileDescription', u'DIYFB-Firmware-Flasher'),
-        StringStruct(u'FileVersion', u'0.0.0.1'),
+        StringStruct(u'FileVersion', u'1.0.0.1'),
         StringStruct(u'InternalName', u'DIYFB-Firmware-Flasher'),
         StringStruct(u'LegalCopyright', u'© DeeEmm. All rights reserved.'),
         StringStruct(u'OriginalFilename', u'DIYFB-Firmware-Flasher.exe'),
         StringStruct(u'ProductName', u'DIYFB-Firmware-Flasher'),
-        StringStruct(u'ProductVersion', u'0.0.0.1')])
+        StringStruct(u'ProductVersion', u'1.0.0.1')])
       ]), 
     VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
   ]
