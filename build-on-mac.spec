@@ -3,9 +3,9 @@
 block_cipher = None
 
 added_files = [
-   ( "/Users/mick/Documents/ESP32 Projects/DIYFB-firmware-flasher/.venv/lib/python3.13/site-packages/esptool/targets/stub_flasher/1", "./esptool/targets/stub_flasher/1"),
-   ( "/Users/mick/Documents/ESP32 Projects/DIYFB-firmware-flasher/.venv/lib/python3.13/site-packages/esptool/targets/stub_flasher/2", "./esptool/targets/stub_flasher/2"),
-   ("images", "images")
+        ("images", "images"),
+        ("{}/1".format(local_stub_flasher_path), "./esptool/targets/stub_flasher/1"),
+        ("{}/2".format(local_stub_flasher_path), "./esptool/targets/stub_flasher/2")
    ]
 
 imported_files = [
